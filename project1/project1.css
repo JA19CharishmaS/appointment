@@ -1,0 +1,93 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: sans-serif;
+}
+.container{
+    height:100%;
+    width:100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("uu.jpg");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.form-box{
+    width:300px;
+    height:350px;
+    position:relative;
+    background:transparent;
+    box-shadow: 1px 2px 20px  white;
+    margin:10% auto;
+    padding:5px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.button-box{
+    width:220px;
+    margin:18px auto;
+    position:relative;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px 10px gray;
+}
+.toggle-btn{
+    padding:10px 28px;
+    cursor: pointer;
+    background: transparent;
+    border:0;
+    outline: none;
+    position:relative;
+    font-weight: bold;
+    color:white;
+}
+#btn{
+    top:0;
+    left:0;
+    position: absolute;
+    width:110px;
+    height:100%;
+    background:turquoise;
+    border-radius: 10px;
+    transition:all 0.5s ease;
+}
+.input-group{
+    position:absolute;
+    top:100px;
+    width:280px;
+} 
+.input{
+    width:100%;
+    padding: 10px 5px;
+    margin:10px 0;
+    outline:none;
+    opacity:0.7;
+    border-radius: 5px;
+    border:1px solid white;
+    transition: all 0.5s ease;
+    
+}
+.input:focus{
+    border:2px solid turquoise;
+}
+.submit-btn{
+    width:100%;
+    padding:10px 30px;
+    margin:5% auto;
+    background: turquoise;
+    border: 0;
+    outline: none;
+    border-radius:5px;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color:white;
+}
+.submit-btn a{
+    color:white;
+    text-decoration: none;
+}
+#login{
+    left:15px;
+}
+#signup{
+    left:450px;
+}
